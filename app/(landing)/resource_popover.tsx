@@ -9,8 +9,8 @@ import {
   Stack,
   Text,
 } from '@chakra-ui/react'
-import { PopoverIcon } from '@/components/popover_icon'
 import { items } from './header_data'
+import { PopoverIcon } from '@/components/navbar/popover_icon'
 
 export const ResourcesPopover = () => (
   <Popover trigger="click" openDelay={0} placement="bottom" defaultIsOpen={false} gutter={12}>
