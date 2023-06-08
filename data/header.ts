@@ -20,7 +20,7 @@ export const data: INav[] = [
         title: "Identity and Access Management (IAM)",
         description:
           "Danish lollipop marzipan dragée gingerbread tart wafer sweet.",
-        href: "#",
+        href: "/iam",
         icon: BsShieldLock,
         children: [],
       },
