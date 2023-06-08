@@ -1,8 +1,11 @@
+import { Header } from "@/components/navbar/navbar";
+import { Sora } from "next/font/google";
 import "./globals.css";
-import { Inter } from "next/font/google";
 import { Providers } from "./provider";
+import { Newsletter } from "./(landing)/newsletter";
+import { Footer } from "./(landing)/footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const sora = Sora({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -16,8 +19,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Providers>{children}</Providers>
+      <body className={sora.className}>
+        <Providers>
+          <Header />
+          {children}
+          <Newsletter />
+          <Footer />
+        </Providers>
       </body>
     </html>
   );

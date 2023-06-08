@@ -9,7 +9,7 @@ import {
   Stack,
   Text,
 } from '@chakra-ui/react'
-import { PopoverIcon } from './popover_icon'
+import { PopoverIcon } from '@/components/popover_icon'
 import { items } from './header_data'
 
 export const ResourcesPopover = () => (

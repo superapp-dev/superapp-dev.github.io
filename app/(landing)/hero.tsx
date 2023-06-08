@@ -12,7 +12,7 @@ import {
 } from "@chakra-ui/react";
 
 export const Hero = () => (
-  <Container>
+  <Container pt={{md: "1px"}}>
     <Box as="section" bg="bg.surface">
       <Box position="relative" height={{ lg: "720px" }}>
         <Container py={{ base: "16", md: "24" }} height="full">

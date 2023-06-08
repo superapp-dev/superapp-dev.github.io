@@ -1,18 +1,16 @@
-  import { Stats } from "./stats";
+  import { Clients } from "./clients";
 import { CTA } from "./cta";
 import { Features } from "./features";
 import { Footer } from "./footer";
-import { Header } from "./header";
 import { Hero } from "./hero";
-import { Pricing } from "./pricing";
-import { Team } from "./team";
-import { Clients } from "./clients";
 import { Newsletter } from "./newsletter";
+import { Pricing } from "./pricing";
+import { Stats } from "./stats";
+import { Team } from "./team";
 
 export default function Home() {
   return (
     <>
-      <Header />
       <Hero />
       <Features />
       <CTA />
@@ -20,8 +18,6 @@ export default function Home() {
       <Pricing />
       <Clients />
       <Team />
-      <Newsletter />
-      <Footer />
     </>
   );
 }
