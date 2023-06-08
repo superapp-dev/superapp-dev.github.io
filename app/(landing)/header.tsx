@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import {
   Box,
   Button,
@@ -7,25 +7,29 @@ import {
   Flex,
   HStack,
   IconButton,
+  Img,
   useBreakpointValue,
-} from '@chakra-ui/react'
-import { FiMenu } from 'react-icons/fi'
-import { Logo } from './logo'
+} from "@chakra-ui/react";
+import { FiMenu } from "react-icons/fi";
+import Image from "next/image";
 
 export const Header = () => {
-  const isDesktop = useBreakpointValue({ base: false, lg: true })
+  const isDesktop = useBreakpointValue({ base: false, lg: true });
   return (
-    <Box as="section" pb={{ base: '12', md: '1' }}>
+    <Box as="section" pb={{ base: "12", md: "1" }}>
       <Box as="nav" bg="bg.surface" boxShadow="sm">
-        <Container py={{ base: '4', lg: '5' }}>
+        <Container py={{ base: "4", lg: "5" }}>
           <HStack spacing="10" justify="space-between">
-            <Logo />
+            <Img src={"/assets/logo_dark.png"} alt="logo" height={8} />
+
             {isDesktop ? (
               <Flex justify="space-between" flex="1">
                 <ButtonGroup variant="text" colorScheme="gray" spacing="8">
-                  {['Product', 'Pricing', 'Resources', 'Support'].map((item) => (
-                    <Button key={item}>{item}</Button>
-                  ))}
+                  {["Product", "Pricing", "Resources", "Support"].map(
+                    (item) => (
+                      <Button key={item}>{item}</Button>
+                    )
+                  )}
                 </ButtonGroup>
                 <HStack spacing="3">
                   <Button variant="tertiary">Sign in</Button>
@@ -43,5 +47,5 @@ export const Header = () => {
         </Container>
       </Box>
     </Box>
-  )
-}
+  );
+};

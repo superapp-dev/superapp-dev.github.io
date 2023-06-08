@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import {
   Box,
   Button,
@@ -6,33 +6,41 @@ import {
   Container,
   Divider,
   IconButton,
+  Img,
   Input,
   Stack,
   Text,
-} from '@chakra-ui/react'
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
-import { Logo } from './logo'
+} from "@chakra-ui/react";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { Logo } from "./logo";
 
 export const Footer = () => (
   <Box bg="bg.accent.default" color="fg.accent.default">
     <Container as="footer" role="contentinfo">
       <Stack
         spacing="8"
-        direction={{ base: 'column', md: 'row' }}
+        direction={{ base: "column", md: "row" }}
         justify="space-between"
-        py={{ base: '12', md: '16' }}
+        py={{ base: "12", md: "16" }}
       >
-        <Stack spacing={{ base: '6', md: '8' }} align="start">
-          <Logo />
-          <Text color="fg.accent.muted">Create beautiful websites remarkably fast.</Text>
+        <Stack spacing={{ base: "6", md: "8" }} align="start">
+          <Img src={"/assets/logo_white.png"} alt="logo" height={8} />
+
+          <Text color="fg.accent.muted">
+            Create beautiful websites remarkably fast.
+          </Text>
         </Stack>
         <Stack
-          direction={{ base: 'column-reverse', md: 'column', lg: 'row' }}
-          spacing={{ base: '12', md: '8' }}
+          direction={{ base: "column-reverse", md: "column", lg: "row" }}
+          spacing={{ base: "12", md: "8" }}
         >
           <Stack direction="row" spacing="8">
             <Stack spacing="4" minW="36" flex="1">
-              <Text fontSize="sm" fontWeight="semibold" color="fg.accent.subtle">
+              <Text
+                fontSize="sm"
+                fontWeight="semibold"
+                color="fg.accent.subtle"
+              >
                 Product
               </Text>
               <Stack spacing="3" shouldWrapChildren>
@@ -42,7 +50,11 @@ export const Footer = () => (
               </Stack>
             </Stack>
             <Stack spacing="4" minW="36" flex="1">
-              <Text fontSize="sm" fontWeight="semibold" color="fg.accent.subtle">
+              <Text
+                fontSize="sm"
+                fontWeight="semibold"
+                color="fg.accent.subtle"
+              >
                 Legal
               </Text>
               <Stack spacing="3" shouldWrapChildren>
@@ -56,7 +68,11 @@ export const Footer = () => (
             <Text fontSize="sm" fontWeight="semibold" color="fg.accent.subtle">
               Stay up to date
             </Text>
-            <Stack spacing="4" direction={{ base: 'column', sm: 'row' }} maxW={{ lg: '360px' }}>
+            <Stack
+              spacing="4"
+              direction={{ base: "column", sm: "row" }}
+              maxW={{ lg: "360px" }}
+            >
               <Input
                 placeholder="Enter your email"
                 type="email"
@@ -75,11 +91,12 @@ export const Footer = () => (
         pt="8"
         pb="12"
         justify="space-between"
-        direction={{ base: 'column-reverse', md: 'row' }}
+        direction={{ base: "column-reverse", md: "row" }}
         align="center"
       >
         <Text fontSize="sm" color="fg.accent.subtle">
-          &copy; {new Date().getFullYear()} Chakra UI Pro, Inc. All rights reserved.
+          &copy; {new Date().getFullYear()} Chakra UI Pro, Inc. All rights
+          reserved.
         </Text>
         <ButtonGroup variant="tertiary.accent">
           <IconButton
@@ -88,7 +105,12 @@ export const Footer = () => (
             aria-label="LinkedIn"
             icon={<FaLinkedin fontSize="1.25rem" />}
           />
-          <IconButton as="a" href="#" aria-label="GitHub" icon={<FaGithub fontSize="1.25rem" />} />
+          <IconButton
+            as="a"
+            href="#"
+            aria-label="GitHub"
+            icon={<FaGithub fontSize="1.25rem" />}
+          />
           <IconButton
             as="a"
             href="#"
@@ -99,4 +121,4 @@ export const Footer = () => (
       </Stack>
     </Container>
   </Box>
-)
+);
