@@ -66,7 +66,7 @@ export const Hero = () => (
               <Img
                 boxSize="full"
                 objectFit="cover"
-                src="https://tinyurl.com/yeyjvptc"
+                src="https://img.freepik.com/premium-vector/funnel-low-poly-wireframe-isolated-black-white-background-abstract-mash-line-point-origami_201274-145.jpg?w=1800"
                 alt="Lady at work"
               />
             </Box>

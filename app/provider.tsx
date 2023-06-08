@@ -7,12 +7,14 @@ import {
   extendTheme,
   theme as baseTheme,
 } from "@chakra-ui/react";
+import '@fontsource/sora'
 
 export const theme = extendTheme(
   {
     colors: { ...baseTheme.colors,brand: baseTheme.colors.gray },
   },
-  proTheme
+  proTheme,
+
 );
 
 export function Providers({ children }: { children: React.ReactNode }) {

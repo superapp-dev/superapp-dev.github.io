@@ -208,8 +208,8 @@ body {
   --chakra-borders-2px: 2px solid;
   --chakra-borders-4px: 4px solid;
   --chakra-borders-8px: 8px solid;
-  --chakra-fonts-heading: "Inter Variable", -apple-system, system-ui, sans-serif;
-  --chakra-fonts-body: "Inter Variable", -apple-system, system-ui, sans-serif;
+  --chakra-fonts-heading: "sora", -apple-system, system-ui, sans-serif;
+  --chakra-fonts-body: "sora", -apple-system, system-ui, sans-serif;
   --chakra-fonts-mono: SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
   --chakra-fontSizes-3xs: 0.45rem;
