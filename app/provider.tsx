@@ -10,7 +10,7 @@ import {
 
 export const theme = extendTheme(
   {
-    colors: { ...baseTheme.colors,brand: baseTheme.colors.teal },
+    colors: { ...baseTheme.colors,brand: baseTheme.colors.gray },
   },
   proTheme
 );

@@ -25,7 +25,7 @@ export const Hero = () => (
             <Stack spacing={{ base: "8", md: "12" }}>
               <Stack spacing="4">
                 <Badge
-                  colorScheme="blue"
+                  colorScheme="gray"
                   alignSelf="start"
                   size={{ base: "md", md: "lg" }}
                 >
