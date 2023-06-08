@@ -7,7 +7,7 @@ import {
   Text,
   useColorModeValue as mode,
 } from "@chakra-ui/react";
-import { features } from "./data";
+import { features } from "./pricing_data";
 import { PricingCard } from "./pricing_card";
 import { PricingFeature } from "./pricing_feature";
 

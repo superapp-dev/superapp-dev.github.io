@@ -4,38 +4,35 @@ import {
   Button,
   ButtonGroup,
   Container,
-  Flex,
   HStack,
   IconButton,
   Img,
-  useBreakpointValue,
+  useBreakpointValue
 } from "@chakra-ui/react";
 import { FiMenu } from "react-icons/fi";
-import Image from "next/image";
+import { ResourcesPopover } from "./resource_popover";
 
 export const Header = () => {
   const isDesktop = useBreakpointValue({ base: false, lg: true });
   return (
-    <Box as="section" pb={{ base: "12", md: "1" }}>
+    <Box as="section">
       <Box as="nav" bg="bg.surface" boxShadow="sm">
         <Container py={{ base: "4", lg: "5" }}>
           <HStack spacing="10" justify="space-between">
             <Img src={"/assets/logo.png"} alt="logo" height={6} />
-
             {isDesktop ? (
-              <Flex justify="space-between" flex="1">
+              <>
                 <ButtonGroup variant="text" colorScheme="gray" spacing="8">
-                  {["Product", "Pricing", "Resources", "Support"].map(
-                    (item) => (
-                      <Button key={item}>{item}</Button>
-                    )
-                  )}
+                  <Button isActive>Product</Button>
+                  <Button>Pricing</Button>
+                  <ResourcesPopover />
+                  <Button>Support</Button>
                 </ButtonGroup>
                 <HStack spacing="3">
                   <Button variant="tertiary">Sign in</Button>
                   <Button variant="primary">Sign up</Button>
                 </HStack>
-              </Flex>
+              </>
             ) : (
               <IconButton
                 variant="tertiary"

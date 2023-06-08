@@ -7,6 +7,7 @@ import { Hero } from "./hero";
 import { Pricing } from "./pricing";
 import { Team } from "./team";
 import { Clients } from "./clients";
+import { Newsletter } from "./newsletter";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Pricing />
       <Clients />
       <Team />
+      <Newsletter />
       <Footer />
     </>
   );
