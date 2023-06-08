@@ -9,7 +9,7 @@ import {
 } from "@chakra-ui/react";
 
 export const CTA = () => (
-  <Container py={{ base: "16", md: "0" }}>
+  <Container py={{ base: "16", md: "8" }}>
     <Box
       bg="bg.accent.default"
       color="fg.accent.default"

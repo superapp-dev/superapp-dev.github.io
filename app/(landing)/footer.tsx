@@ -24,7 +24,7 @@ export const Footer = () => (
         py={{ base: "12", md: "16" }}
       >
         <Stack spacing={{ base: "6", md: "8" }} align="start">
-          <Img src={"/assets/logo_white.png"} alt="logo" height={8} />
+          <Img src={"/assets/logo_white.png"} alt="logo" height={7} />
 
           <Text color="fg.accent.muted">
             Create beautiful websites remarkably fast.

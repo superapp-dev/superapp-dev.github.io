@@ -12,7 +12,7 @@ import { PricingCard } from "./pricing_card";
 import { PricingFeature } from "./pricing_feature";
 
 export const Pricing = () => (
-  <Box as="section" bg={'bg.accent.default'}>
+  <Box as="section" bg={"bg.accent.default"}>
     <Container py={{ base: "16", md: "24" }}>
       <Stack spacing={{ base: "12", md: "16" }}>
         <Stack spacing={{ base: "4", md: "6" }}>
@@ -20,7 +20,7 @@ export const Pricing = () => (
             <Text color="white" fontWeight="semibold">
               Pricing
             </Text>
-            <Heading size={{ base: "md", md: "lg" }} color={'white'}>
+            <Heading size={{ base: "md", md: "lg" }} color={"white"}>
               Get lifetime access
             </Heading>
           </Stack>

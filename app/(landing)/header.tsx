@@ -20,7 +20,7 @@ export const Header = () => {
       <Box as="nav" bg="bg.surface" boxShadow="sm">
         <Container py={{ base: "4", lg: "5" }}>
           <HStack spacing="10" justify="space-between">
-            <Img src={"/assets/logo_dark.png"} alt="logo" height={8} />
+            <Img src={"/assets/logo.png"} alt="logo" height={7} />
 
             {isDesktop ? (
               <Flex justify="space-between" flex="1">

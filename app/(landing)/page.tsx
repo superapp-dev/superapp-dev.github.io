@@ -1,4 +1,4 @@
-import { Stats } from "./stats";
+  import { Stats } from "./stats";
 import { CTA } from "./cta";
 import { Features } from "./features";
 import { Footer } from "./footer";
