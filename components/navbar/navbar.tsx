@@ -33,8 +33,12 @@ export const Header = () => {
                   ))}
                 </ButtonGroup>
                 <HStack spacing="3">
-                  <Button variant="tertiary">Sign in</Button>
-                  <Button variant="primary">Sign up</Button>
+                  <Link href="https://pro.superapp.dev/sign_in">
+                    <Button variant="tertiary">Sign in</Button>
+                  </Link>
+                  <Link href="https://pro.superapp.dev/sign_up">
+                    <Button variant="primary">Sign up</Button>
+                  </Link>
                 </HStack>
               </>
             ) : (
