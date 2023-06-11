@@ -3,6 +3,7 @@ import {
   Box,
   Center,
   Container,
+  Img,
   SimpleGrid,
   Stack,
   Text,
@@ -31,7 +32,23 @@ export const Clients = () => (
           gap={{ base: "4", md: "8" }}
           columns={{ base: 2, md: 3, lg: 5 }}
         >
-          {Object.entries(logos).map(([name, Logo]) => (
+          <Center>
+            <Img
+              src="https://www.ihx.in/images/IHX-logo.png"
+              alt="IHX"
+              h={{ base: "8", md: "10" }}
+              maxW="10rem"
+            />
+          </Center>
+          <Center>
+            <Img
+              src="https://prabhaav.ai/static/media/Prabhaav%20Logo-white.4107c8e5752671863376.png"
+              alt="Prabhaav"
+              h={{ base: "8", md: "10" }}
+              maxW="10rem"
+            />
+          </Center>
+          {/* {Object.entries(logos).map(([name, Logo]) => (
             <Center key={name}>
               <Logo
                 h={{ base: "8", md: "10" }}
@@ -39,7 +56,7 @@ export const Clients = () => (
                 fill="fg.emphasized"
               />
             </Center>
-          ))}
+          ))} */}
         </SimpleGrid>
       </Stack>
     </Box>

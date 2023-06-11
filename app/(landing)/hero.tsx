@@ -10,9 +10,10 @@ import {
   Stack,
   Text,
 } from "@chakra-ui/react";
+import Link from "next/link";
 
 export const Hero = () => (
-  <Container pt={{md: "1px"}}>
+  <Container pt={{ md: "1px" }}>
     <Box as="section" bg="bg.surface">
       <Box position="relative" height={{ lg: "720px" }}>
         <Container py={{ base: "16", md: "24" }} height="full">
@@ -24,33 +25,43 @@ export const Hero = () => (
           >
             <Stack spacing={{ base: "8", md: "12" }}>
               <Stack spacing="4">
-                <Badge
-                  colorScheme="gray"
-                  alignSelf="start"
-                  size={{ base: "md", md: "lg" }}
-                >
-                  New components available
-                </Badge>
+                <Link href={"/blog/why-we-are-opensource"}>
+                  <Badge
+                    colorScheme="gray"
+                    alignSelf="start"
+                    size={{ base: "md", md: "lg" }}
+                    fontWeight={900}
+                  >
+                    How are we opensource?
+                  </Badge>
+                </Link>
                 <Stack
                   spacing={{ base: "4", md: "6" }}
                   maxW={{ md: "xl", lg: "md", xl: "xl" }}
                 >
                   <Heading size={{ base: "md", md: "xl" }}>
+                    {/* Supercharge your development process with our cutting-edge tools. */}
                     Create your app remarkable fast
                   </Heading>
                   <Text fontSize={{ base: "lg", md: "xl" }} color="fg.muted">
-                    Choose from over 210+ beautiful and responsive components
-                    and build your app twice as fast.
+                    Enterprise ready software suit build for scale & speed.
+                    Create remarkable apps faster than ever, elevate your
+                    customer service and deliver exceptional experience.
                   </Text>
                 </Stack>
               </Stack>
-              <Stack direction={{ base: "column", md: "row" }} spacing="3">
-                <Button variant="primary" size={{ base: "lg", md: "xl" }}>
-                  Buy now
-                </Button>
-                <Button variant="secondary" size={{ base: "lg", md: "xl" }}>
-                  Learm more
-                </Button>
+              <Stack direction={{ base: "column", md: "row" }} spacing="3" justifyContent={'start'}>
+                <Link href="/learn" target="_blank">
+                  <Button
+                    variant="secondary"
+                    size={{ base: "lg", md: "xl" }}
+                  >Get Started</Button>
+                </Link>
+                {/* <Link href="/sign_up">
+                  <Button variant="primary" size={{ base: "lg", md: "xl" }}>
+                    Try now
+                  </Button>
+                </Link> */}
               </Stack>
             </Stack>
             <Box

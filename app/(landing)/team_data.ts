@@ -1,44 +1,36 @@
 export const members = [
   {
-    role: 'Co-Founder / CEO',
+    role: "Architect / Prduct Owner / Customer Success",
     image:
-      'https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzN8fGxhZHklMjBzbWlsaW5nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
-    name: 'Camila West',
-    description: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
+      "https://media.licdn.com/dms/image/C4D03AQHNMZ0IxUAK4Q/profile-displayphoto-shrink_800_800/0/1516784950470?e=1692230400&v=beta&t=9qgDo07d4J-ZYaMT3tIVfnyUHwm8DBsQ_2eTFqeBiWo",
+    name: "Jaikeerthi K",
+    // description: 'Product evangelist, developer, startups',
   },
   {
-    role: 'Co-Founder / CTO',
+    role: "Advisor / Product Owner / Business Development",
     image:
-      'https://images.unsplash.com/photo-1573007974656-b958089e9f7b?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Nnx8Z3V5JTIwc21pbGluZ3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
-    name: 'Mark Linhsorg',
-    description: 'Habitant morbi tristique senectus et netus et malesuada fames vestibulum.',
+      "https://media.licdn.com/dms/image/D4E03AQFHV_ilGnhUew/profile-displayphoto-shrink_800_800/0/1663508078590?e=1692230400&v=beta&t=3hckZtjvz_7ZxngKUHvg0y_v52yALKqU4bm_7nf5MQI",
+    name: "Manoj Bharadwaj",
+    // description: 'Technology consulting, startups, advisory role',
   },
   {
-    role: 'Marketing Manager',
+    role: "Developer",
     image:
-      'https://images.unsplash.com/photo-1521296797187-726205347ca9?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTd8fGxhZHklMjBzbWlsaW5nfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
-    name: 'Kim Yung',
-    description: 'Quis risus sed vulputate odio ut enim blandit volutpat. Amet cursus sit amet.',
+      "https://media.licdn.com/dms/image/D5603AQEkT4aTJ_YYoQ/profile-displayphoto-shrink_800_800/0/1682336104038?e=1692230400&v=beta&t=k6Jy3PdUg14vcpNZkcw-xvcwuO-2WaKPxp4MYwctlvc",
+    name: "Tejesh Pichandi ",
   },
   {
-    role: 'Manager, Business Relations',
+    role: "Developer",
     image:
-      'https://images.unsplash.com/photo-1524660988542-c440de9c0fde?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTYwfHxibGFjayUyMGd1eXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
-    name: 'Morgan Adebayo',
-    description: 'Consectetur libero id faucibus nisl tincidunt eget nullam fringilla urna.',
+      "https://media.licdn.com/dms/image/C4D03AQHNMZ0IxUAK4Q/profile-displayphoto-shrink_800_800/0/1516784950470?e=1692230400&v=beta&t=9qgDo07d4J-ZYaMT3tIVfnyUHwm8DBsQ_2eTFqeBiWo",
+    name: "Shabhari Saravanan",
+    // description: 'Quis risus sed vulputate odio ut enim blandit volutpat. Amet cursus sit amet.',
   },
   {
-    role: 'Chief Operating Officer',
+    role: "Architect / Devops / Data / Cloud",
     image:
-      'https://images.unsplash.com/photo-1522938974444-f12497b69347?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzJ8fGJsYWNrJTIwbGFkeXxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
-    name: 'Bimbo Akintola',
-    description: 'Mi eget mauris pharetra et ultrices neque ornare aenean massa eget egestas.',
+      "https://media.licdn.com/dms/image/C4E03AQGxAm4vp5XNfA/profile-displayphoto-shrink_800_800/0/1533258670816?e=1692230400&v=beta&t=AG0TI46nYvtk-OoGWheF72RfiIlzvIgfy6Kuu678shY",
+    name: "Nikhil Lokhande",
+    // description: 'Consectetur libero id faucibus nisl tincidunt eget nullam fringilla urna.',
   },
-  {
-    role: 'Head of Human Resources',
-    image:
-      'https://images.unsplash.com/photo-1574034589502-9f8a1ed46fa7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTMxfHxsYWR5JTIwc21pbGluZ3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60',
-    name: 'Yasmine Jones',
-    description: 'Diam maecenas sed enim ut sem viverra aliquet eget magna ac placerat.',
-  },
-]
+];

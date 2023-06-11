@@ -14,6 +14,7 @@ import {
 } from "@chakra-ui/react";
 import { FiCheck } from "react-icons/fi";
 import { product } from "./pricing_data";
+import Link from "next/link";
 
 export const PricingCard = (props: BoxProps) => {
   return (
@@ -38,10 +39,10 @@ export const PricingCard = (props: BoxProps) => {
             <Text color="fg.muted">{product.description}</Text>
           </Stack>
           <Stack direction="row" spacing="0.5">
-            <Heading size="md" pt={{ base: "1.5", lg: "2" }}>
-              $
+            <Heading size={{ base: "md", lg: "lg" }}>${product.price}</Heading>
+            <Heading fontSize="14" alignSelf={"center"}>
+              onwards
             </Heading>
-            <Heading size={{ base: "lg", lg: "xl" }}>{product.price}</Heading>
           </Stack>
         </Stack>
 
@@ -69,9 +70,11 @@ export const PricingCard = (props: BoxProps) => {
         </Stack>
 
         <Box px={{ base: "6", md: "8" }} pb="2">
-          <Button variant="primary" size="xl" width="full">
-            Buy now
-          </Button>
+          <Link href="https://pro.superapp.dev/sign_up" target="_blank">
+            <Button variant="primary" size="xl" width="full">
+              Buy now
+            </Button>
+          </Link>
         </Box>
       </Stack>
     </Box>

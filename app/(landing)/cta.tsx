@@ -1,12 +1,6 @@
 "use client";
-import {
-  Box,
-  Button,
-  Container,
-  Heading,
-  Stack,
-  Text
-} from "@chakra-ui/react";
+import { Box, Button, Container, Heading, Stack, Text } from "@chakra-ui/react";
+import Link from "next/link";
 
 export const CTA = () => (
   <Container py={{ base: "16", md: "8" }}>
@@ -23,10 +17,10 @@ export const CTA = () => (
         justify="space-between"
       >
         <Stack spacing="4" maxW="2xl">
-          <Heading size="sm">Ready to Grow?</Heading>
+          <Heading size="sm">Ready to develope?</Heading>
           <Text color="fg.accent.muted" fontSize={{ base: "lg", lg: "xl" }}>
-            With this beautiful and responsive React components you will realize
-            your next project in no time.
+            Jumpstart your next product development with one of our pre-built
+            libraries.
           </Text>
         </Stack>
         <Stack
@@ -34,12 +28,16 @@ export const CTA = () => (
           direction={{ base: "column", sm: "row" }}
           justify={{ base: "start" }}
         >
-          <Button variant="secondary.accent" size="xl">
-            Learn more
-          </Button>
-          <Button variant="primary.accent" size="xl">
-            Start Free Trial
-          </Button>
+          <Link href="learn">
+            <Button variant="secondary.accent" size="xl">
+              Learn more
+            </Button>
+          </Link>
+          <Link href="https://pro.superapp.dev/sign_up" target="_blank">
+            <Button variant="primary.accent" size="xl">
+              Sign up
+            </Button>
+          </Link>
         </Stack>
       </Stack>
     </Box>

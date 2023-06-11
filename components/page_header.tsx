@@ -7,7 +7,7 @@ interface PageProps {
 }
 
 export const PageHeader = ({ subtitle, title, breadcrumbs }: PageProps) => (
-  <Box as="section" bg="bg.surface" py={{ base: "16", md: "24" }}>
+  <Box as="section" bg="bg.surface" py={{ base: "16", md: "16" }}>
     <Container>
       <Stack spacing={{ base: "4", md: "6" }} align="center" textAlign="center">
         <Stack spacing="3">

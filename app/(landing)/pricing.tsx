@@ -25,8 +25,9 @@ export const Pricing = () => (
             </Heading>
           </Stack>
           <Text fontSize={{ base: "lg", md: "xl" }} color="white" maxW="3xl">
-            Get access to 210+ components and free updates. Customize it to your
-            needs, and make it yours today!
+            {/* Get access to 210+ components and free updates. Customize it to your */}
+            {/* needs, and make it yours today! */}
+            We are on our private beta. we respect our early adoptors by giving better price 
           </Text>
         </Stack>
         <Stack

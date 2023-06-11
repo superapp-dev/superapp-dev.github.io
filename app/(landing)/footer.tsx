@@ -13,6 +13,7 @@ import {
 } from "@chakra-ui/react";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { Logo } from "./logo";
+import Link from "next/link";
 
 export const Footer = () => (
   <Box bg="bg.accent.default" color="fg.accent.default">
@@ -26,9 +27,7 @@ export const Footer = () => (
         <Stack spacing={{ base: "6", md: "8" }} align="start">
           <Img src={"/assets/logo_white.png"} alt="logo" height={7} />
 
-          <Text color="fg.accent.muted">
-            Create beautiful websites remarkably fast.
-          </Text>
+          <Text color="fg.accent.muted">Build your app remarkably fast.</Text>
         </Stack>
         <Stack
           direction={{ base: "column-reverse", md: "column", lg: "row" }}
@@ -44,9 +43,15 @@ export const Footer = () => (
                 Product
               </Text>
               <Stack spacing="3" shouldWrapChildren>
-                <Button variant="text.accent">How it works</Button>
-                <Button variant="text.accent">Pricing</Button>
-                <Button variant="text.accent">Use Cases</Button>
+                <Link href="/how-it-works">
+                  <Button variant="text.accent">How it works</Button>
+                </Link>
+                <Link href="/pricing">
+                  <Button variant="text.accent">Pricing</Button>
+                </Link>
+                <Link href="/use_case">
+                  <Button variant="text.accent">Use Cases</Button>
+                </Link>
               </Stack>
             </Stack>
             <Stack spacing="4" minW="36" flex="1">
@@ -58,9 +63,12 @@ export const Footer = () => (
                 Legal
               </Text>
               <Stack spacing="3" shouldWrapChildren>
-                <Button variant="text.accent">Privacy</Button>
-                <Button variant="text.accent">Terms</Button>
-                <Button variant="text.accent">License</Button>
+                <Link href="/privacy">
+                  <Button variant="text.accent">Privacy</Button>
+                </Link>
+                <Link href={"/terms"}>
+                  <Button variant="text.accent">Terms</Button>
+                </Link>
               </Stack>
             </Stack>
           </Stack>
@@ -95,25 +103,28 @@ export const Footer = () => (
         align="center"
       >
         <Text fontSize="sm" color="fg.accent.subtle">
-          &copy; {new Date().getFullYear()} Chakra UI Pro, Inc. All rights
-          reserved.
+          &copy; {new Date().getFullYear()} Superapp Technologies Pvt. Ltd. All
+          rights reserved.
         </Text>
         <ButtonGroup variant="tertiary.accent">
           <IconButton
             as="a"
-            href="#"
+            href="https://linkedin.com"
+            target="_blank"
             aria-label="LinkedIn"
             icon={<FaLinkedin fontSize="1.25rem" />}
           />
           <IconButton
             as="a"
-            href="#"
+            href="https://github.com/superapp-dev"
+            target="_blank"
             aria-label="GitHub"
             icon={<FaGithub fontSize="1.25rem" />}
           />
           <IconButton
             as="a"
-            href="#"
+            href="https://twitter.com/superapp-dev"
+            target="_blank"
             aria-label="Twitter"
             icon={<FaTwitter fontSize="1.25rem" />}
           />

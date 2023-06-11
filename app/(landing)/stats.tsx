@@ -4,13 +4,15 @@ import {
   Button,
   Container,
   Heading,
+  Img,
   SimpleGrid,
   Stack,
   Text,
 } from "@chakra-ui/react";
 import { FiArrowRight } from "react-icons/fi";
 import { LogoIcon } from "./logo_icon";
-import { stats } from "./stats_data";
+import { stats } from "@/data/why_us";
+import Link from "next/link";
 
 export const Stats = () => (
   <Container py={{ base: "16", md: "8" }}>
@@ -18,22 +20,25 @@ export const Stats = () => (
       <Container py={{ base: "16", md: "24" }}>
         <Stack spacing={{ base: "12", md: "16" }}>
           <Stack spacing={{ base: "4", md: "6" }}>
-            <LogoIcon />
+            <center>
+              <Img src="/favicon.ico" width={10} />
+            </center>
             <Stack
               spacing={{ base: "4", md: "5" }}
               textAlign="center"
               align="center"
             >
               <Heading size={{ base: "sm", md: "md" }}>
-                Why Chakra UI Pro?
+                Why you should use superapp?
               </Heading>
               <Text
                 fontSize={{ base: "lg", md: "xl" }}
                 color="fg.muted"
                 maxW="3xl"
               >
-                Because this beautiful and responsive React components will help
-                your to realize your next project in no time.
+                As a product owner / founder, focus on building your core
+                product while we support your development and product team with
+                easily customizable libraries and admin panels.
               </Text>
             </Stack>
           </Stack>
@@ -60,13 +65,15 @@ export const Stats = () => (
                       {stat.label}
                     </Text>
                   </Stack>
-                  <Button
-                    variant="text"
-                    alignSelf="start"
-                    rightIcon={<FiArrowRight fontSize="1.25rem" />}
-                  >
-                    {stat.link.label}
-                  </Button>
+                  <Link href={stat.link.href} target="_blank">
+                    <Button
+                      variant="text"
+                      alignSelf="start"
+                      rightIcon={<FiArrowRight fontSize="1.25rem" />}
+                    >
+                      {stat.link.label}
+                    </Button>
+                  </Link>
                 </Stack>
               </Box>
             ))}

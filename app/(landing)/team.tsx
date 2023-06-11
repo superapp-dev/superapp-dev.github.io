@@ -30,10 +30,10 @@ export const Team = () => (
           </Text>
           <Stack spacing={{ base: "4", md: "5" }}>
             <Heading size={{ base: "sm", md: "md" }}>Meet our team</Heading>
-            <Text fontSize={{ base: "lg", md: "xl" }} color="fg.muted">
+            {/* <Text fontSize={{ base: "lg", md: "xl" }} color="fg.muted">
               Chupa chups pudding marzipan cake chocolate shortbread macaroon
               oat cake.
-            </Text>
+            </Text> */}
           </Stack>
         </Stack>
         <Stack

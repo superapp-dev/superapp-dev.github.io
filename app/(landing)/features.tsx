@@ -1,4 +1,5 @@
 "use client";
+import { developerFeatures } from "@/data/developer_features";
 import {
   Box,
   Container,
@@ -10,7 +11,6 @@ import {
   Text,
   useColorModeValue as mode,
 } from "@chakra-ui/react";
-import { features } from "./data";
 
 export const Features = () => (
   <Box as="section">
@@ -27,15 +27,16 @@ export const Features = () => (
               fontWeight="semibold"
               color="accent"
             >
-              Features
+              For Developers
             </Text>
             <Heading size={{ base: "sm", md: "md" }}>
-              What can you expect?
+              Build apps faster.
             </Heading>
           </Stack>
           <Text color="fg.muted" fontSize={{ base: "lg", md: "xl" }} maxW="3xl">
-            A bundle of 210+ ready-to-use, responsive and accessible components
-            with clever structured sourcode files.
+            Complete your development done in hours instead of months. Easily
+            build, customize and extend your application with a mordern tech
+            stack.
           </Text>
         </Stack>
         <SimpleGrid
@@ -43,7 +44,7 @@ export const Features = () => (
           columnGap={8}
           rowGap={{ base: 10, md: 16 }}
         >
-          {features.map((feature) => (
+          {developerFeatures.map((feature) => (
             <Stack
               key={feature.name}
               spacing={{ base: "4", md: "5" }}
