@@ -1,6 +1,6 @@
 export const members = [
   {
-    role: "Architect / Prduct Owner / Customer Success",
+    role: "Architect / Product Owner / Customer Success",
     image:
       "https://media.licdn.com/dms/image/C4D03AQHNMZ0IxUAK4Q/profile-displayphoto-shrink_800_800/0/1516784950470?e=1692230400&v=beta&t=9qgDo07d4J-ZYaMT3tIVfnyUHwm8DBsQ_2eTFqeBiWo",
     name: "Jaikeerthi K",
