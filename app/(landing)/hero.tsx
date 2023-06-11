@@ -32,7 +32,7 @@ export const Hero = () => (
                     size={{ base: "md", md: "lg" }}
                     fontWeight={900}
                   >
-                    How are we opensource?
+                    why are we opensource?
                   </Badge>
                 </Link>
                 <Stack
