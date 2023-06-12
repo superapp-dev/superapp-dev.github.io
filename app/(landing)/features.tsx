@@ -30,11 +30,11 @@ export const Features = () => (
               For Developers
             </Text>
             <Heading size={{ base: "sm", md: "md" }}>
-              Build apps faster.
+              Build apps faster!
             </Heading>
           </Stack>
           <Text color="fg.muted" fontSize={{ base: "lg", md: "xl" }} maxW="3xl">
-            Complete your development done in hours instead of months. Easily
+            Complete your development in hours instead of months! Easily
             build, customize and extend your application with a mordern tech
             stack.
           </Text>

@@ -37,7 +37,7 @@ export const Stats = () => (
                 maxW="3xl"
               >
                 As a product owner / founder, focus on building your core
-                product while we support your development and product team with
+                product while we support your development with
                 easily customizable libraries and admin panels.
               </Text>
             </Stack>

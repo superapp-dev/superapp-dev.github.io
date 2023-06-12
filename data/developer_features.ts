@@ -25,7 +25,7 @@ export const developerFeatures = [
     icon: FaHtml5,
   },
   {
-    name: "Devops",
+    name: "DevOps",
     description:
       "We run containers in a fully managed runtime environment, we handle everything critical for production.", // — (configuration, orchestration, load balancing, failovers, logging, security, and more..)",
     icon: BsServer,
@@ -37,13 +37,13 @@ export const developerFeatures = [
     icon: FaCubes,
   },
   {
-    name: "self-hosted or Cloud",
+    name: "Self-Hosted or Cloud",
     description:
       "Extend the capabilities of superapp with our Cloud, our fully managed platform or deploy on-premises.",
     icon: BsCloud,
   },
   {
-    name: "Opensource",
+    name: "Open Source",
     description:
       "We use and contribute actively opensource tools tools which helps us to build better products.", // Most of our libraries are available on GitHub and maintained by hundreds of contributors.",
     icon: BsCodeSlash,

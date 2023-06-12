@@ -1,7 +1,7 @@
 export const stats = [
   {
     value: '3',
-    label: 'SDKs and libraries',
+    label: 'SDKs & libraries',
     link: {
       href: 'https://github.com/superapp-dev',
       label: 'Explore',
@@ -9,7 +9,7 @@ export const stats = [
   },
   {
     value: '10%',
-    label: 'Less dev costs & time',
+    label: 'Less Dev Costs & Time',
     link: {
       href: '/blog/how-we-reduce-your-development-cost-and-time',
       label: 'Learn how?',
@@ -17,7 +17,7 @@ export const stats = [
   },
   {
     value: '5',
-    label: 'our opensource usage',
+    label: 'Our Open Source Usage',
     link: {
       href: '#',
       label: 'What are they?',
@@ -25,7 +25,7 @@ export const stats = [
   },
   {
     value: '2',
-    label: 'Satisfied customers',
+    label: 'Satisfied Customers',
     link: {
       href: '#',
       label: 'Reviews',

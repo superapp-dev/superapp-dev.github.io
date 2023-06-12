@@ -32,7 +32,7 @@ export const Hero = () => (
                     size={{ base: "md", md: "lg" }}
                     fontWeight={900}
                   >
-                    why are we opensource?
+                    we are open source! find out why?
                   </Badge>
                 </Link>
                 <Stack
@@ -41,12 +41,12 @@ export const Hero = () => (
                 >
                   <Heading size={{ base: "md", md: "xl" }}>
                     {/* Supercharge your development process with our cutting-edge tools. */}
-                    Create your app remarkable fast
+                    Create your apps remarkably fast!
                   </Heading>
                   <Text fontSize={{ base: "lg", md: "xl" }} color="fg.muted">
-                    Enterprise ready software suit build for scale & speed.
-                    Create remarkable apps faster than ever, elevate your
-                    customer service and deliver exceptional experience.
+                    Enterprise ready software suite built for scale & speed!
+                    Create apps that WOW! faster than ever, elevate your
+                    customer service and deliver exceptional experience!!
                   </Text>
                 </Stack>
               </Stack>

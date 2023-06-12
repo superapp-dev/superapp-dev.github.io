@@ -17,47 +17,47 @@ export const data: INav[] = [
     title: "Product",
     children: [
       {
-        title: "Identity and Access Management (IAM)",
+        title: "Identity & Access Management (IAM)",
         description:
-          "Danish lollipop marzipan dragée gingerbread tart wafer sweet.",
+          "Components to manage users, groups, roles, permissions, and more.",
         href: "/iam",
         icon: BsShieldLock,
         children: [],
       },
       {
-        title: "Subscription",
-        description: "Macaroon tiramisu tart bonbon apple pie jujubes brownie.",
+        title: "Subscriptions",
+        description: "Subscription management and billing.",
         href: "#",
         icon: FaMoneyCheck,
         children: [],
       },
       {
-        title: "Email automation tool",
-        description: "hupa chups donut caramels chocolate cake toffee.",
+        title: "Email Automation Tool",
+        description: "Automate your email marketing.",
         href: "#",
         icon: BsSend,
         children: [],
       },
       {
-        title: "Event & data pipeline",
+        title: "Event & Data Pipeline",
         description:
-          "Dragée jujubes brownie pastry biscuit croissant wafer halva apple.",
+          "Event-driven architecture for processing and reacting to events.",
         href: "#",
         icon: BsDatabase,
         children: [],
       },
       {
-        title: "DevOps automation",
+        title: "DevOps Automation",
         description:
-          "Dragée jujubes brownie pastry biscuit croissant wafer halva apple.",
+          "Automate your DevOps workflows with CI/CD pipelines, deployments, and more.",
         href: "#",
         icon: FaServer,
         children: [],
       },
       {
-        title: "Opensource",
+        title: "Open Source",
         description:
-          "Dragée jujubes brownie pastry biscuit croissant wafer halva apple.",
+          "Open source components for building your own applications.",
         href: "#",
         icon: FiUsers,
         children: [],
@@ -75,21 +75,21 @@ export const data: INav[] = [
       {
         title: "Learn",
         description:
-          "Danish lollipop marzipan dragée gingerbread tart wafer sweet.",
+          "Learn about our products, features, and how to get started.",
         href: "#",
         icon: IoSchoolOutline,
         children: [],
       },
       {
         title: "Blog",
-        description: "Macaroon tiramisu tart bonbon apple pie jujubes brownie.",
+        description: "Blog posts, articles, and more.",
         href: "#",
         icon: BsBookmarks,
         children: [],
       },
       {
         title: "Tutorials",
-        description: "hupa chups donut caramels chocolate cake toffee.",
+        description: "Tutorial videos and guides.",
         href: "#",
         icon: FaLaptopCode,
         children: [],
@@ -97,14 +97,14 @@ export const data: INav[] = [
       {
         title: "Integrations",
         description:
-          "Dragée jujubes brownie pastry biscuit croissant wafer halva apple.",
+          "Integrate with third-party services like Stripe, Twilio, and more.",
         href: "#",
         icon: FiGrid,
         children: [],
       },
       {
         title: "Customers",
-        description: "Candy oat cake caramels shortbread gummies.",
+        description: "Customer stories and testimonials.",
         href: "#",
         icon: BsHeart,
         children: [],
@@ -112,7 +112,7 @@ export const data: INav[] = [
       {
         title: "Discussion",
         description:
-          "Bear claw topping toffee tiramisu cake fruitcake marzipan icing.",
+          "Interact with other users and our team in our community discussion forums.",
         href: "#",
         icon: BsChatDots,
         children: [],

@@ -3,7 +3,7 @@ import { IFeature } from "@/interfaces/IFeature"
 export const products = [
   {
     name: 'Free',
-    description: 'Oat cake chocolate liquorice jelly shortbread cake oat.',
+    description: 'No credit card required. Forever free.',
     price: '$0',
     features: {
       // Features,
@@ -25,7 +25,7 @@ export const products = [
   {
     name: 'Pro',
     isPopular: true,
-    description: 'Caramels cupcake topping cookie tootsie roll macaroon.',
+    description: 'For small teams or side projects.',
     price: '$29',
     features: {
       // Features,
@@ -46,7 +46,7 @@ export const products = [
   },
   {
     name: 'Ultimate',
-    description: 'Chocolate macaroon liquorice cheesecake donut toffee.',
+    description: 'Enterprise-grade features and support.',
     price: '$499',
     features: {
       // Features,

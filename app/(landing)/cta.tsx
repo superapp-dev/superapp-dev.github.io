@@ -17,7 +17,7 @@ export const CTA = () => (
         justify="space-between"
       >
         <Stack spacing="4" maxW="2xl">
-          <Heading size="sm">Ready to develope?</Heading>
+          <Heading size="sm">Ready to develop?</Heading>
           <Text color="fg.accent.muted" fontSize={{ base: "lg", lg: "xl" }}>
             Jumpstart your next product development with one of our pre-built
             libraries.
